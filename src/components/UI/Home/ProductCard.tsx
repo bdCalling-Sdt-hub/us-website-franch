@@ -17,7 +17,7 @@ const ProductCard: React.FC<{ product: IProduct }> = ({ product }) => {
         <h2 className="card-title text-2xl mb-2">{product.title}</h2>
         <p>{product.description}</p>
         <div className="card-actions mt-4">
-          <button className="btn bg-[#1775fa] text-white">Learn More</button>
+          <button className="btn bg-[#1775fa] text-white">Apprendre encore plus</button>
         </div>
       </div>
     </div>

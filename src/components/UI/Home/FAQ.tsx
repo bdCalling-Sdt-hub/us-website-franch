@@ -4,30 +4,30 @@ import HeaderText from "@/components/util/HeaderText";
 const FAQ = () => {
   const faqQuestions = [
     {
-      question: "Where can I buy your services?",
+      question: "Où puis-je acheter vos services ?",
       answer:
-        "You can purchase our services directly on our website or by contacting our customer service team. We also have physical stores located in Montreal and Laval where you can speak to one of our representatives in person.",
+        "Vous pouvez acheter nos services directement sur notre site Web ou en contactant notre service client. Nous avons également des magasins physiques situés à Montréal et à Laval où vous pouvez parler à l'un de nos représentants en personne.",
     },
     {
-      question: "Can you provide any type of device for use with you service?",
+      question: "Pouvez-vous fournir n’importe quel type d’appareil à utiliser avec votre service ?",
       answer:
-        "Yes, Bravo Telecom provides a modem and WiFi equipment at no extra cost to our customers to ensure a seamless internet experience.",
+        "Oui, Bravo Telecom fournit un modem et un équipement WiFi sans frais supplémentaires à nos clients pour garantir une expérience Internet fluide.",
     },
     {
-      question: "Is there a contract and what are the cancellation fees?",
+      question: "Y a-t-il un contrat et quels sont les frais d'annulation ?",
       answer:
-        "We believe in providing flexible, affordable, and transparent services to our customers. We offer services without any contract or commitment, so you can cancel or modify your plan at any time without any cancellation fees.",
+        "Nous croyons en la fourniture de services flexibles, abordables et transparents à nos clients. Nous proposons des services sans aucun contrat ni engagement, vous pouvez donc annuler ou modifier votre forfait à tout moment sans aucun frais d'annulation.",
     },
     {
       question:
-        "Is there a money back guarantee if I'm not satisfied with the service?",
+        "Existe-t-il une garantie de remboursement si je ne suis pas satisfait du service ?",
       answer:
-        "Yes, Bravo Telecom offers a 15-day money-back guarantee for all of our services. If you are not satisfied with the service within 15 days of installation, you can cancel your service and receive a full refund of any fees or charges paid.",
+        "Oui, Bravo Telecom offre une garantie de remboursement de 15 jours pour tous nos services. Si vous n'êtes pas satisfait du service dans les 15 jours suivant l'installation, vous pouvez annuler votre service et recevoir un remboursement complet de tous les frais payés.",
     },
     {
-      question: "Do you offer a free trial?",
+      question: "Proposez-vous un essai gratuit ?",
       answer:
-        "Yes, Bravo Telecom offers a free trial for our TV service. Customers can enjoy one month of free TV service to try out our offerings and see if it meets their needs.",
+        "Oui, Bravo Telecom propose un essai gratuit pour notre service TV. Les clients peuvent profiter d'un mois de service TV gratuit pour essayer nos offres et voir si elles répondent à leurs besoins.",
     },
   ];
   return (

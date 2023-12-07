@@ -1,28 +1,29 @@
+/* eslint-disable react/no-unescaped-entities */
 import { ArrowDownUp, PhoneCall, Tv } from "lucide-react";
 import Link from "next/link";
 
 const Service = () => {
   const items = [
     {
-      title: "HD TV",
+      title: "Télévision HD",
       description:
-        "High definition television service with more than 150 channels.",
+        "Service de télévision haute définition avec plus de 150 chaînes.",
       icon: <Tv size={40} />,
-      btnContent: "View channel list",
+      btnContent: "Afficher la liste des chaînes",
     },
     {
-      title: "UNLIMITED INTERNET",
+      title: "INTERNET ILLIMITÉ",
       description:
-        "High speed Internet service with completely unlimited usage",
+        "Service Internet haute vitesse avec utilisation totalement illimitée",
       icon: <ArrowDownUp size={40} />,
-      btnContent: "Choose speed",
+      btnContent: "Choisissez la vitesse",
     },
     {
-      title: "HOME PHONE",
+      title: "TÉLÉPHONE FIXE",
       description:
-        "Residential telephony covering the vast region of Canada, United States.",
+        "Téléphonie résidentielle couvrant la vaste région du Canada, États-Unis.",
       icon: <PhoneCall size={40} />,
-      btnContent: "Choose Package",
+      btnContent: "Choisir le forfait",
     },
   ];
 
@@ -31,19 +32,19 @@ const Service = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center mb-14">
         <div>
           <h1 className="text-2xl lg:text-5xl font-bold">
-            Services that are so
-            <br /> refreshing
+          Des services tellement
+            <br /> rafraîchissante
           </h1>
           <div className="border-b-4 w-52 my-5 border-[#1775fa]" />
         </div>
         <div className="space-y-5">
           <p className="text-xl">
-            Are you hungry for reliable, fast and cost-effective TV, Internet
-            and phone service? Place your order now!
+          Avez-vous soif de télévision et d'Internet fiables, rapides et économiques
+            et le service téléphonique ? Passez votre commande maintenant !    
           </p>
           <Link href="/contact">
             <button className="btn btn-wide btn-black uppercase mt-5 hover:bg-gray-500 duration">
-              Commander
+            Le commandant
             </button>
           </Link>
         </div>

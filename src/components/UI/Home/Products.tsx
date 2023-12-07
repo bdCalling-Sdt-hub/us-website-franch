@@ -5,23 +5,23 @@ const Products = () => {
   const productList = [
     {
       image: "/images/product1.png",
-      title: "Duo Phone",
-      description: "Shop for your unlimited internet and phone combo.",
+      title: "Téléphone Duo",
+      description: "Achetez votre combo Internet et téléphone illimité.",
     },
     {
       image: "/images/product2.png",
-      title: "Duo Tv",
-      description: "Shop for your unlimited internet and phone combo.",
+      title: "Duo Télé",
+      description: "Achetez votre combo Internet et téléphone illimité.",
     },
     {
       image: "/images/product3.png",
       title: "Trio",
-      description: "Shop for your unlimited internet and phone combo.",
+      description: "Achetez votre combo Internet et téléphone illimité.",
     },
   ];
   return (
     <div>
-      <HeaderText>Combine and Save</HeaderText>
+      <HeaderText>Combinez et économisez</HeaderText>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mx-3 lg:mx-28">
         {productList.map((product, index) => (
           <ProductCard key={index} product={product} />

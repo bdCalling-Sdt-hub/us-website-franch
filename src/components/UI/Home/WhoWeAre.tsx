@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
 
 const WhoWeAre = () => {
@@ -5,21 +6,21 @@ const WhoWeAre = () => {
     <div className="mx-3 lg:mx-44 mt-32">
       <div className="lg:flex items-center gap-5">
         <div className="space-y-8 lg:w-[50%] text-gray-400">
-          <h1 className="text-4xl font-bold">Who are we ?</h1>
+          <h1 className="text-4xl font-bold">Qui sommes nous ?</h1>
           <p className="text-xl">
-            Founded in 2004, Vodalink is a Montreal-based company that offers
-            telecommunications services around the world.
+          Fondée en 2004, Vodalink est une entreprise montréalaise qui offre
+            services de télécommunications dans le monde entier.
           </p>
           <p className="text-xl">
-            With the motivation to always simplify your life, Vodalink offers
-            unlimited Internet, high definition television and residential
-            telephony services. Our services reach cities such as Montreal,
-            Quebec City, Toronto, Ottawa, Longueuil, Laval, Sherbrooke and many
-            others across Canada and the world.
+          Avec la motivation de toujours vous simplifier la vie, Vodalink vous propose
+            Internet illimité, télévision haute définition et résidentiel
+            services de téléphonie. Nos services rejoignent des villes telles que Montréal,
+            Québec, Toronto, Ottawa, Longueuil, Laval, Sherbrooke et plusieurs
+            d'autres partout au Canada et dans le monde.
           </p>
           <Link href="/contact">
             <button className="btn uppercase btn-wide btn-black mt-5 hover:bg-gray-500 duration">
-              CONTACT
+            CONTACT
             </button>
           </Link>
         </div>

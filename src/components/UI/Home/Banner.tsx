@@ -32,16 +32,16 @@ const Banner = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                 <div className="order-2 lg:order-1">
                   <h1 className="text-5xl font-medium mb-2 text-gray-400">
-                    Television & Internet
+                  Télévision et Internet
                   </h1>
                   <h2 className="text-2xl font-bold text-gray-400">
-                    The best content TV can give you
+                  Le meilleur contenu que la télévision puisse vous offrir
                   </h2>
 
-                  <p className="text-md font-medium mt-5">From only</p>
+                  <p className="text-md font-medium mt-5">À partir de seulement</p>
                   <h1 className="font-bold text-light mb-4">
                     <span className="text-6xl  text-[#1775fa]">$69</span>
-                    .95/month
+                    0,95/mois
                   </h1>
                   <button className="btn uppercase btn-wide btn-black mt-5 ">
                     Plus d&apos;Information
