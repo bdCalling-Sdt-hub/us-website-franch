@@ -1,0 +1,56 @@
+{
+  "internetServices": [
+    {
+      "id": 1,
+      "title": "Unlimited Internet",
+      "detailTitle": "Unlimited Internet High Speed ​​Cable 15",
+      "description": "This package includes unlimited Internet use. Internet speed is 15 MB/s download and 1 MB/s upload.",
+      "mbps": 15,
+      "price": 54,
+      "orPrice": 54,
+      "facilities": [
+        "Download medium to large files",
+        "Watching TV over the Internet (IPTV)",
+        "Watch HD streaming videos",
+        "Consult social networks (Facebook, Twitter, YouTube, Twitch etc.)"
+      ],
+      "recommand": "Recommended for single users and small families.",
+      "tag": ""
+    },
+    {
+      "id": 2,
+      "title": "Unlimited Internet",
+      "detailTitle": "Unlimited Internet High Speed ​​Cable 30",
+      "description": "This package includes unlimited Internet use. Internet speed is 30 MB/s download and 10 MB/s upload.",
+      "mbps": 30,
+      "price": 59,
+      "orPrice": 59,
+      "facilities": [
+        "Uploading large files",
+        "Smooth, no-wait browsing on the web",
+        "Online console and PC games (PS4, Xbox One, PC)",
+        "HD video streaming",
+        "Connecting multiple connected devices simultaneously"
+      ],
+      "recommand": "Recommended for digital television viewing and medium-sized families.",
+      "tag": "Bargain"
+    },
+    {
+      "id": 3,
+      "title": "Unlimited Internet",
+      "detailTitle": "Unlimited Internet High Speed ​​Cable 60",
+      "description": "This package includes unlimited Internet use. Internet speed is 60 MB/s download and 10 MB/s upload.",
+      "mbps": 60,
+      "price": 64,
+      "orPrice": 59,
+      "facilities": [
+        "Uploading very large files",
+        "Multiple users with high usage and multitasking",
+        "Online video games",
+        "HD video streaming"
+      ],
+      "recommand": "Recommended for gamers, heavy users and large families.",
+      "tag": ""
+    }
+  ]
+}
