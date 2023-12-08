@@ -1,8 +1,8 @@
 {
   "tvPackageList": [
     {
-      "title": "Basic TV",
-      "facilities": ["25+ basic channels", "TV receiver included"],
+      "title": "Télévision de base",
+      "facilities": ["25+ chaînes de base", "Récepteur TV inclus"],
       "images": [
         "/images/1.png",
         "/images/2.png",
@@ -13,11 +13,11 @@
       "price": 25
     },
     {
-      "title": "TV Franco",
+      "title": "Télévision Franco",
       "facilities": [
-        "The top French-speaking channels",
-        "More than 60 channels",
-        "TV receiver included"
+        "Le top des chaînes francophones",
+        "Plus de 60 chaînes",
+        "Récepteur TV inclus"
       ],
       "images": [
         "/images/17.png",
@@ -29,11 +29,11 @@
       "price": 40
     },
     {
-      "title": "Basic TV",
+      "title": "Télévision de base",
       "facilities": [
-        "The top English-speaking channels",
-        "More than 60 channels",
-        "TV receiver included"
+        "Le top des chaînes anglophones",
+        "Plus de 60 chaînes",
+        "Récepteur TV inclus"
       ],
       "images": [
         "/images/6.png",
@@ -45,11 +45,11 @@
       "price": 40
     },
     {
-      "title": "TV  Complete",
+      "title": "Télévision terminée",
       "facilities": [
-        "The top French-speaking channels",
-        "More than 100 channels",
-        "TV receiver included"
+        "Le top des chaînes francophones",
+        "Plus de 100 chaînes",
+        "Récepteur TV inclus"
       ],
       "images": [
         "/images/11.png",
@@ -61,10 +61,10 @@
       "price": 70
     },
     {
-      "title": "Selection",
+      "title": "Sélection",
       "facilities": [
-        "Select the channels you want on the menu",
-        "TV receiver included"
+        "Sélectionnez les chaînes souhaitées dans le menu",
+        "Récepteur TV inclus"
       ],
       "images": [
         "/images/1.png",

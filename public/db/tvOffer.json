@@ -1,12 +1,12 @@
 {
   "tvOfferList": [
     {
-      "title": "Super Screen",
+      "title": "Super écran",
       "images": ["/images/Superecran.png"],
       "price": 15
     },
     {
-      "title": "Children's TV",
+      "title": "Télévision pour enfants",
       "images": [
         "/images/children1.png",
         "/images/children2.png",
@@ -21,7 +21,7 @@
       "price": 10
     },
     {
-      "title": "History & science",
+      "title": "Histoire et sciences",
       "images": [
         "/images/history1.png",
         "/images/history2.png",
@@ -35,7 +35,7 @@
       "price": 15
     },
     {
-      "title": "Movies & Series",
+      "title": "Films et séries",
       "images": [
         "/images/movie1.png",
         "/images/movie2.png",
@@ -62,7 +62,7 @@
       "price": 10
     },
     {
-      "title": "Vie & Mode",
+      "title": "Vie et mode",
       "images": [
         "/images/vie1.png",
         "/images/vie2.png",
