@@ -63,7 +63,7 @@ const Navbar = () => {
                   <Link href="/support">Support</Link>
                 </li>
                 <li className="text-2xl">
-                  <a>English</a>
+                  <a href="https://vodalink-telecom-en.vercel.app/">English</a>
                 </li>
                 <div>
                   <button className="btn btn-ghost btn-circle">
@@ -81,7 +81,7 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          <Image src="/images/logo2.png" alt="logo" width={300} height={200} />
+          <Image src="/images/logo2.png" alt="logo" width={300} height={67} />
         </div>
         <div className="navbar-end hidden lg:flex z-10">
           <ul className="menu menu-horizontal px-1">
@@ -114,7 +114,7 @@ const Navbar = () => {
               <Link href="/support">Support</Link>
             </li>
             <li>
-              <a>English</a>
+              <a href="https://vodalink-telecom-en.vercel.app/">English</a>
             </li>
           </ul>
           <div>
