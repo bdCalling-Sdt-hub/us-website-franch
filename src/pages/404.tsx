@@ -1,12 +1,15 @@
 
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 const NotFound = () => {
   const router = useRouter();
 
+useEffect(()=>{
   setTimeout(() => {
     router.push("/");
   }, 5000);
+},[router])
   return (
     <div className="  flex  justify-center  mt-28">
       <div>
