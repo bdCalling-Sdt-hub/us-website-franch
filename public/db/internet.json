@@ -1,0 +1,56 @@
+{
+  "internetServices": [
+    {
+      "id": 1,
+      "title": "Internet illimité",
+      "detailTitle": "Câble Internet Haut Débit Illimité 15",
+      "description": "son forfait comprend l'utilisation illimitée d'Internet. La vitesse Internet est de 15 Mo/s en téléchargement et de 1 Mo/s en téléchargement.",
+      "mbps": 15,
+      "price": 54,
+      "orPrice": 54,
+      "facilities": [
+        "Téléchargez des fichiers de taille moyenne à grande",
+        "Regarder la télévision sur Internet (IPTV)",
+        "Regarder des vidéos en streaming HD",
+        "Consultez les réseaux sociaux (Facebook, Twitter, YouTube, Twitch etc.)"
+      ],
+      "recommand": "Recommandé pour les utilisateurs individuels et les petites familles.",
+      "tag": ""
+    },
+    {
+      "id": 2,
+      "title": "Internet illimité",
+      "detailTitle": "Câble Internet Haut Débit Illimité 30",
+      "description": "Ce forfait comprend l'utilisation illimitée d'Internet. La vitesse Internet est de 30 Mo/s en téléchargement et de 10 Mo/s en téléchargement.",
+      "mbps": 30,
+      "price": 59,
+      "orPrice": 59,
+      "facilities": [
+        "Téléchargement de fichiers volumineux",
+        "Navigation fluide et sans attente sur le web",
+        "Jeux console et PC en ligne (PS4, Xbox One, PC)",
+        "Diffusion vidéo HD",
+        "Connexion simultanée de plusieurs appareils connectés"
+      ],
+      "recommand": "Recommandé pour la télévision numérique et les familles de taille moyenne.",
+      "tag": "Marchander"
+    },
+    {
+      "id": 3,
+      "title": "Internet illimité",
+      "detailTitle": "Câble Internet Haut Débit Illimité 60",
+      "description": "Ce forfait comprend l'utilisation illimitée d'Internet. La vitesse Internet est de 60 Mo/s en téléchargement et de 10 Mo/s en téléchargement.",
+      "mbps": 60,
+      "price": 64,
+      "orPrice": 59,
+      "facilities": [
+        "Téléchargement de fichiers très volumineux",
+        "Plusieurs utilisateurs avec une utilisation élevée et multitâche",
+        "Jeux vidéo en ligne",
+        "Diffusion vidéo HD"
+      ],
+      "recommand": "Recommandé pour les joueurs, les gros utilisateurs et les familles nombreuses.",
+      "tag": ""
+    }
+  ]
+}

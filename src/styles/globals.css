@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #a0a7b4 !important;
+  width: 40px !important;
+  height: 40px !important;
+  background: #191e24cc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-button-next {
+  right: 3px !important;
+}
+.swiper-button-prev {
+  left: 3px !important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 20px !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1d232a;
+  overflow-x: hidden;
+}
+
+.swiper-pagination {
+  right: 0px !important;
+}
+
+.who {
+  position: relative;
+  z-index: 9999;
+}
+
+.who::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background-color: rgba(12, 68, 252, 0.507);
+  border-radius: 50%;
+  position: absolute;
+  top: -80px;
+  left: 80px;
+  z-index: -99999;
+}

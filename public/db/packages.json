@@ -1,0 +1,132 @@
+{
+  "packages": [
+    {
+      "title": "BASIC TV + UNLIMITED INTERNET",
+      "facilities": [
+        "Includes over 25 local and US channels",
+        "Unlimited Internet cable 30",
+        "​Equipment rental included free of charge"
+      ],
+      "price": "$69.95/MONTH",
+      "category": "tv-internet"
+    },
+    {
+      "title": "TV SELECT 15 + UNLIMITED INTERNET",
+      "facilities": [
+        "Select 15 specialty channels à la carte",
+        "Includes over 25 local and US channels",
+        "Unlimited Internet cable 30",
+        "Equipment rental included free of charge"
+      ],
+      "price": "$84.95/MONTH",
+      "category": "tv-internet"
+    },
+    {
+      "title": "FREE PACKAGE + UNLIMITED INTERNET",
+      "facilities": [
+        "Includes all French-speaking specialty channels",
+        "Includes over 25 local and US channels",
+        "Unlimited Internet cable 30",
+        "Equipment rental included free of charge",
+        "Includes FREE local phone services"
+      ],
+      "price": "$99.95/MONTH",
+      "category": "tv-internet"
+    },
+    {
+      "title": "ANGLO PACKAGE + UNLIMITED INTERNET",
+      "facilities": [
+        "  Includes all English-speaking specialty channels",
+        "Unlimited Internet cable 30",
+        "Equipment rental included free of charge",
+        "Includes FREE local phone services"
+      ],
+      "price": "$99.95/MONTH",
+      "category": "tv-internet"
+    },
+    {
+      "title": "UNLIMITED INTERNET + LOCAL TELEPHONE",
+      "facilities": [
+        "Unlimited 15 cable high speed internet",
+        "Unlimited local telephony",
+        "​Equipment rental included free of charge"
+      ],
+      "price": "$52.95/MONTH",
+      "category": "internet-phone"
+    },
+    {
+      "title": "UNLIMITED INTERNET + CAN/USA TELEPHONY",
+      "facilities": [
+        "Unlimited 15 cable high speed internet",
+        "Unlimited CANADA / USA telephony",
+        "Equipment rental included free of charge"
+      ],
+      "price": "$59.95/MONTH",
+      "category": "internet-phone"
+    },
+    {
+      "title": "UNLIMITED INTERNET 30 + LOCAL TELEPHONE",
+      "facilities": [
+        "Unlimited cable high speed Internet 30",
+        "Unlimited local telephony",
+        "Equipment rental included free of charge"
+      ],
+      "price": "$59.95/MONTH",
+      "category": "internet-phone"
+    },
+    {
+      "title": "UNLIMITED INTERNET 30 + CAN/USA TELEPHONY",
+      "facilities": [
+        " ​Unlimited cable high speed Internet 30",
+        "Unlimited CANADA/USA telephony",
+        "Equipment rental included free of charge"
+      ],
+      "price": " ​$66.95/MONTH",
+      "category": "internet-phone"
+    },
+    {
+      "title": "SELECT 10 + INTERNET + TELEPHONE CAN/USA",
+      "facilities": [
+        "Basic television + 10 pay-per-view channels",
+        "Unlimited Internet speed of 30mbits",
+        " ​Unlimited telephony - CANADA / USA",
+        "​Equipment rental included free of charge"
+      ],
+      "price": "$79.95/MONTH",
+      "category": "tv-internet-phone"
+    },
+    {
+      "title": "SELECT 15 + INTERNET + TELEPHONE CAN/USA",
+      "facilities": [
+        "Basic television + 15 pay-per-view channels",
+        "Unlimited Internet speed of 30mbits",
+        "Unlimited telephony - CANADA / USA",
+        "Equipment rental included free of charge"
+      ],
+      "price": "$89.95/MONTH",
+      "category": "tv-internet-phone"
+    },
+    {
+      "title": "SELECT 25 + INTERNET + TELEPHONE CAN/USA",
+      "facilities": [
+        " ​Unlimited cable high speed Internet 30",
+        "Unlimited Internet speed of 30mbits",
+        "​Unlimited telephony - CANADA / USA",
+        "Equipment rental included free of charge"
+      ],
+      "price": "$99.95/MONTH",
+      "category": "tv-internet-phone"
+    },
+    {
+      "title": "THE TOTAL + INTERNET + TELEPHONE CAN/USA",
+      "facilities": [
+        " Basic television + total specialty channels",
+        "Unlimited Internet speed of 30mbits",
+        "​Unlimited telephony - CANADA / USA",
+        "Equipment rental included free of charge"
+      ],
+      "price": "  ​$110/MONTH",
+      "category": "tv-internet-phone"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "tvOfferList": [
+    {
+      "title": "Super Screen",
+      "images": ["/images/Superecran.png"],
+      "price": 15
+    },
+    {
+      "title": "Children's TV",
+      "images": [
+        "/images/children1.png",
+        "/images/children2.png",
+        "/images/children3.png",
+        "/images/children4.png",
+        "/images/children5.png",
+        "/images/children6.png",
+        "/images/children7.png",
+        "/images/children8.png",
+        "/images/children9.png"
+      ],
+      "price": 10
+    },
+    {
+      "title": "History & science",
+      "images": [
+        "/images/history1.png",
+        "/images/history2.png",
+        "/images/history3.png",
+        "/images/history4.png",
+        "/images/history5.png",
+        "/images/history6.png",
+        "/images/history7.png",
+        "/images/history8.png"
+      ],
+      "price": 15
+    },
+    {
+      "title": "Movies & Series",
+      "images": [
+        "/images/movie1.png",
+        "/images/movie2.png",
+        "/images/movie3.png",
+        "/images/movie4.png",
+        "/images/movie5.png",
+        "/images/movie6.png",
+        "/images/movie7.png",
+        "/images/movie8.png",
+        "/images/movie9.png"
+      ],
+      "price": 15
+    },
+    {
+      "title": "Pop TV",
+      "images": [
+        "/images/pop1.png",
+        "/images/pop2.png",
+        "/images/pop3.png",
+        "/images/pop4.png",
+        "/images/pop5.png",
+        "/images/pop6.png"
+      ],
+      "price": 10
+    },
+    {
+      "title": "Vie & Mode",
+      "images": [
+        "/images/vie1.png",
+        "/images/vie2.png",
+        "/images/vie3.png",
+        "/images/vie4.png",
+        "/images/vie5.png",
+        "/images/vie6.png"
+      ],
+      "price": 10
+    }
+  ]
+}
