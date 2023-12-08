@@ -34,17 +34,17 @@ const BannerDetail: React.FC<{ data: IData | undefined }> = ({ data }) => {
             <p className="text-white">{item}</p>
           </div>
         ))}
-        <p className="mt-4">Start now</p>
-        <p className="font-bold">From</p>
+        <p className="mt-4">Commencez maintenant</p>
+        <p className="font-bold">Depuis</p>
         <div className="flex gap-5 items-center my-8">
           <h1 className="font-bold text-light">
-            <span className="text-6xl">{data?.price}</span>.95/month
+            <span className="text-6xl">{data?.price}</span>0,95/mois
           </h1>
           <h1 className="font-bold text-light flex items-center gap-2">
-            <h1>OR</h1>
+            <h1>OU</h1>
             <div>
               <span className="text-6xl">{data?.orPrice}</span>
-              .95/month
+              0,95/mois
             </div>
           </h1>
         </div>

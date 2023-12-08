@@ -20,7 +20,7 @@ const WhoWeAre = () => {
           </p>
           <Link href="/contact">
             <button className="btn uppercase btn-wide btn-black mt-5 hover:bg-gray-500 duration">
-            CONTACT
+            Contacter
             </button>
           </Link>
         </div>

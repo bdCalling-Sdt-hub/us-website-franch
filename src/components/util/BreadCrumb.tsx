@@ -11,7 +11,7 @@ const BreadCrumb: React.FC<{ title: ITitle }> = ({ title }) => {
         <li>
           <Link href="/" className="flex items-center gap-1">
             <Home size={18} />
-            <span className="text-[18px]">Home</span>
+            <span className="text-[18px]">Maison</span>
           </Link>
         </li>
         <li>

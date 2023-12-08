@@ -44,7 +44,7 @@ const PackagesPage = () => {
               title === "internet-phone" ? "bg-[#1775fa] text-white" : ""
             }`}
           >
-            Internet + Phone
+           Internet + Téléphone
           </button>
           <button
             role="tab"
@@ -53,26 +53,34 @@ const PackagesPage = () => {
               title === "tv-internet-phone" ? "bg-[#1775fa] text-white" : ""
             }`}
           >
-            TV + Internet + Phone
+      tv-internet-téléphone
           </button>
         </div>
 
         {title === "tv-internet" && (
           <PackageTitle
-            title="HD TV packages with unlimited Internet"
-            description="Choose from our best packages combining Internet and television service."
+            title="Forfaits de télévision HD avec Internet illimité
+            "
+            description="Choissisez parmi nos meilleurs forfaits jumellant le service d'Internet et télévision.
+
+            "
           />
         )}
         {title === "internet-phone" && (
           <PackageTitle
-            title="Unlimited Internet and local phone plans and CANADA/USA"
-            description="Choose from our best packages combining Internet and telephone service."
+            title="Forfaits d'Internet illimité et téléphonie locale et CANADA / USA
+            "
+            description="Choissisez parmi nos meilleurs forfaits jumellant le service d'Internet et téléphone.
+
+            "
           />
         )}
         {title === "tv-internet-phone" && (
           <PackageTitle
-            title="HD television packages, unlimited Internet and local telephony and CANADA / USA"
-            description="Choose from our best packages combining television, Internet and telephone service."
+            title="Forfaits de télévision HD, Internet illimité et téléphonie locale et CANADA / USA"
+            description="Choissisez parmi nos meilleurs forfaits jumellant le service de ​télévision, Internet et téléphone.
+
+            "
           />
         )}
 

@@ -37,24 +37,24 @@ const Navbar = () => {
                 className="menu menu-sm dropdown-content mt-3  p-2 shadow bg-[#191e24] text-gray-400 rounded-box w-60 z-10"
               >
                 <li>
-                  <a>Magazines</a>
+                  <a>Magasiner</a>
                   <ul className="p-2">
                     <li className="">
-                      <Link href="/packages">Packages</Link>
+                      <Link href="/packages">Forfaits</Link>
                     </li>
                     <li>
-                      <Link href="/television">Television</Link>
+                      <Link href="/television">Télévision</Link>
                     </li>
                     <li className="text-md">
                       <Link href="/internet">Internet</Link>
                     </li>
                     <li className="text-md">
-                      <Link href="/phone">Phone</Link>
+                      <Link href="/phone">Téléphone</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="text-md">
-                  <Link href="/packages">Packages</Link>
+                  <Link href="/packages">Forfaits</Link>
                 </li>
                 <li className="text-md">
                   <Link href="/contact">Contact</Link>
@@ -87,25 +87,25 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             <li>
               <details>
-                <summary className="">Magazines</summary>
+                <summary className="">Magasiner</summary>
                 <ul className="bg-[#191e24] z-[1] menu p-2 w-52">
                   <li className="">
-                    <Link href="/packages">Packages</Link>
+                    <Link href="/packages">Forfaits</Link>
                   </li>
                   <li>
-                    <Link href="/television">Television</Link>
+                    <Link href="/television">Télévision</Link>
                   </li>
                   <li>
                     <Link href="/internet">Internet</Link>
                   </li>
                   <li>
-                    <Link href="/phone">Phone</Link>
+                    <Link href="/phone">Téléphone</Link>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
-              <Link href="/packages">Packages</Link>
+              <Link href="/packages">Forfaits</Link>
             </li>
             <li>
               <Link href="/contact">Contact</Link>

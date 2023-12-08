@@ -7,23 +7,23 @@ const Service = () => {
     {
       title: "Télévision HD",
       description:
-        "Service de télévision haute définition avec plus de 150 chaînes.",
+        "Service de télévision de haute définition avec plus de 150 chaînes.",
       icon: <Tv size={40} />,
-      btnContent: "Afficher la liste des chaînes",
+      btnContent: "Voir la liste des chaînes",
     },
     {
       title: "INTERNET ILLIMITÉ",
       description:
-        "Service Internet haute vitesse avec utilisation totalement illimitée",
+        "Service d'Internet de haute vitesse avec usage complètement illimité",
       icon: <ArrowDownUp size={40} />,
-      btnContent: "Choisissez la vitesse",
+      btnContent: "choisir vitesse",
     },
     {
       title: "TÉLÉPHONE FIXE",
       description:
-        "Téléphonie résidentielle couvrant la vaste région du Canada, États-Unis.",
+        "Téléphonie résidentielle couvrant les vaste région du Canada, États-Unis.",
       icon: <PhoneCall size={40} />,
-      btnContent: "Choisir le forfait",
+      btnContent: "choisir forfait",
     },
   ];
 
@@ -44,7 +44,7 @@ const Service = () => {
           </p>
           <Link href="/contact">
             <button className="btn btn-wide btn-black uppercase mt-5 hover:bg-gray-500 duration">
-            Le commandant
+      commandant
             </button>
           </Link>
         </div>

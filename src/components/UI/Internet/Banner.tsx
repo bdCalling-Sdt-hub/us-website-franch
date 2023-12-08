@@ -14,14 +14,12 @@ const Banner = () => {
         <div className="border-2 border-[#1775fa] w-56 mb-4" />
         <h1 className="text-4xl font-bold text-light mb-2">Internet</h1>
         <p>
-          With download speeds up to 60mbps, we are an internet service provider
-          working to give you the best experience with our high speed unlimited
-          internet plans.
+        Avec des vitesses de téléchargement allant jusqu’à 60mbps, nous sommes un fournisseur de services Internet qui travaille pour vous offrir la meilleure expérience avec nos forfaits d’internet illimité haute vitesse.
         </p>
-        <p className="mt-4">Start now</p>
-        <p className="font-bold">From</p>
+        <p className="mt-4">Commencez dès maintenant</p>
+        <p className="font-bold">à partir de</p>
         <h1 className="font-bold text-light my-4">
-          <span className="text-6xl">$59</span>.95/month
+          <span className="text-6xl">$59</span> 95/mois
         </h1>
         <p>
           <Link href="/contact">

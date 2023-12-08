@@ -29,7 +29,7 @@ const TabSection = () => {
               : ""
           }`}
         >
-          Technical specifications
+         Spécifications techniques
         </button>
         <button
           role="tab"

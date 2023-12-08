@@ -3,13 +3,13 @@ import { Mail, Mailbox, MapPin, PhoneCall } from "lucide-react";
 const ContactType = () => {
   const items = [
     {
-      title: "OUR OFFICES",
-      text: "7900 boulevard Taschereau A-206, Brossard, QC, Canada J4X 1C2",
+      title: "NOS BUREAUX",
+      text: "7900 boulevard Taschereau A-206, Brossard, QC, Canada  J4X 1C2",
       icon: <MapPin size={60} color="#1775fa" />,
     },
     {
-      title: "PHONE",
-      text: "514-800-0201, 1-855-396-2838 (Toll-free)",
+      title: "TÉLÉPHONES",
+      text: "514-800-0201 1-855-396-2838 (Sans-frais)",
       icon: <PhoneCall size={60} color="#1775fa" />,
     },
     {
@@ -18,7 +18,7 @@ const ContactType = () => {
       icon: <Mailbox size={60} color="#1775fa" />,
     },
     {
-      title: "E-MAIL",
+      title: "COURRIEL",
       text: "info@vodalink.com",
       icon: <Mail size={60} color="#1775fa" />,
     },

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Banner = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 items-center my-10 bg-[#2a323c] rounded-md p-10">
@@ -11,10 +12,10 @@ const Banner = () => {
       <div className="space-y-5 text-center text-gray-400">
         <div className="border-2 border-[#1775fa] w-56 mx-auto" />
         <h1 className="text-4xl font-bold text-white">
-          NEED TO ORDER? MORE INFORMATION HELP?
+        BESOIN DE COMMANDER ? PLUS D'INFORMATIONS, AIDE ?
         </h1>
         <h1 className="text-4xl font-bold text-white">
-          DON NOT HESITATE TO WRITE TO US
+        N'HÉSITEZ PAS À NOUS ÉCRIRE
         </h1>
 
         <div className="border-2 border-[#1775fa] w-56 mx-auto" />

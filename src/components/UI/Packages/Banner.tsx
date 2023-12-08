@@ -12,8 +12,8 @@ const Banner = () => {
       </div>
       <div className="space-y-5 text-center text-gray-400">
         <div className="border-2 border-[#1775fa] w-56 mx-auto" />
-        <h1 className="text-4xl font-bold text-white">PACKAGES</h1>
-        <h1 className="text-4xl font-bold text-white">REFRESHMENTS</h1>
+        <h1 className="text-4xl font-bold text-white">DES FORFAITS</h1>
+        <h1 className="text-4xl font-bold text-white">RAFRAICHISSANTS</h1>
         <p>
           <Link href="/contact">
             <button className="btn btn-black btn-wide text-white ">

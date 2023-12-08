@@ -10,14 +10,15 @@ const Specification = () => {
     { title: "S912 Octa-Core" },
     { title: "Cortex-A53" },
     { title: "Android 10.0" },
-    { title: "Keyboard compatible" },
+    { title: "Compatible avec clavier" },
   ];
   const items2 = [
-    { title: "Pair with television" },
-    { title: "Computer mouse activation" },
+    { title: "Pair avec télévision" },
+    { title: "Activation souris  d'ordinateur" },
     { title: "Shortcut pour application" },
-    { title: "Back button" },
-    { title: "Button to move forward and forward" },
+    { title: "Bouton retour" },
+    { title: "Bouton pour avancer et" },
+    { title: "devancer" },
   ];
   return (
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-2 items-center tab-content bg-base-100 border-base-300 rounded-box p-6 space-y-5 lg:space-y-0">

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import HeaderText from "@/components/util/HeaderText";
 import { Check } from "lucide-react";
 import Link from "next/link";
@@ -9,41 +10,40 @@ const Service = () => {
   return (
     <div className="mx-3 lg:mx-28">
       <HeaderText>
-        UNLIMITED HIGH SPEED INTERNET <br /> PACKAGES
+      FORFAITS D'INTERNET ILLIMITÉ HAUTE <br />  VITESSE 
       </HeaderText>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 items-center mb-14">
         <div>
           <p className="text-lg">
-            Our high-speed unlimited Internet plans include cable connections
-            with speed margins ensuring you a fast connection at a good price.
+          Nos forfaits d’Internet illimité haute vitesse incluent des connexions de câble avec des marges de vitesse vous assurant une connexion rapide et à bon prix.
           </p>
         </div>
         <div className="lg:mx-auto">
           <div className="flex items-center gap-2">
             <Check color="#1775fa" size={15} />
-            <p className="text-white">Unlimited use</p>
+            <p className="text-white">Usage illimité</p>
           </div>
           <div className="flex items-center gap-2">
             <Check color="#1775fa" size={15} />
-            <p className="text-white">High speed</p>
+            <p className="text-white">Haute vitesse</p>
           </div>
           <div className="flex items-center gap-2">
             <Check color="#1775fa" size={15} />
-            <p className="text-white">Router included</p>
+            <p className="text-white">Routeur inclus</p>
           </div>
         </div>
         <div className="lg:mx-auto">
           <div className="flex items-center gap-2">
             <Check color="#1775fa" size={15} />
-            <p className="text-white">Modem included</p>
+            <p className="text-white">Modem inclus</p>
           </div>
           <div className="flex items-center gap-2">
             <Check color="#1775fa" size={15} />
-            <p className="text-white">Fixed price</p>
+            <p className="text-white">Prix fixe</p>
           </div>
           <div className="flex items-center gap-2">
             <Check color="#1775fa" size={15} />
-            <p className="text-white">Without contract</p>
+            <p className="text-white">Sans contrat</p>
           </div>
         </div>
       </div>

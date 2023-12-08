@@ -4,26 +4,27 @@ const ContactForm = () => {
       <div>
         <div className="card bg-[#2a323c] text-neutral-content z-10">
           <div className="card-body text-gray-400">
-            <h1 className="text-3xl font-bold">Write to us here</h1>
+            <h1 className="text-3xl font-bold">Écrivez-nous ici
+</h1>
             <form>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <label className="form-control w-full ">
                   <div className="label">
-                    <span className="label-text">First Name</span>
+                    <span className="label-text">Prénom</span>
                   </div>
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Écrivez ici"
                     className="bg-[#2a323c] input input-bordered w-full"
                   />
                 </label>
                 <label className="form-control w-full max-w-xs">
                   <div className="label">
-                    <span className="label-text">Last Name</span>
+                    <span className="label-text">Nom de famille</span>
                   </div>
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Écrivez ici"
                     className="input input-bordered w-full max-w-xs bg-[#2a323c]"
                   />
                 </label>
@@ -31,32 +32,32 @@ const ContactForm = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <label className="form-control w-full max-w-xs">
                   <div className="label">
-                    <span className="label-text">Email</span>
+                    <span className="label-text">E-mail</span>
                   </div>
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Écrivez ici"
                     className="input input-bordered w-full  bg-[#2a323c]"
                   />
                 </label>
                 <label className="form-control w-full ">
                   <div className="label">
-                    <span className="label-text">Phone number</span>
+                    <span className="label-text">Numéro de téléphone</span>
                   </div>
                   <input
                     type="text"
-                    placeholder="Type here"
+                    placeholder="Entrez votre numéro (e.g. 5148000201)"
                     className="input input-bordered w-full bg-[#2a323c]"
                   />
                 </label>
               </div>
               <label className="form-control w-full">
                 <div className="label">
-                  <span className="label-text">Address</span>
+                  <span className="label-text">Adresse</span>
                 </div>
                 <input
                   type="text"
-                  placeholder="Type here"
+                  placeholder="Écrivez ici"
                   className="input input-bordered w-full bg-[#2a323c]"
                 />
               </label>
@@ -66,11 +67,11 @@ const ContactForm = () => {
                 </div>
                 <textarea
                   className="textarea textarea-bordered h-24 bg-[#2a323c]"
-                  placeholder="Type here"
+                  placeholder="Écrivez ici"
                 ></textarea>
               </label>
               <button className="btn btn-black w-full text-white mt-8">
-                SEND
+              ENVOYER
               </button>
             </form>
           </div>

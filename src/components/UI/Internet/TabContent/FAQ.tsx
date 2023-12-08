@@ -3,18 +3,18 @@ import FaqCard from "../../../util/FaqCard";
 const FAQ = () => {
   const faqQuestions = [
     {
-      question: "Which provider are you dealing with?",
+      question: "Avec quel fournisseur faites vous affaire?",
       answer:
-        "We are an independent Internet service provider who does business with the Videotron coaxial network in the greater Montreal area.The majority of our promotions include free rental of a modem and router. If you have specific requirements, we have different ranges of equipment to meet your needs",
+        "Nous sommes un fournisseur de services d'Internet indépendant qui fait affaire avec le réseau coaxial de Vidéotron dans la grande région de Montréal.",
     },
     {
-      question: "Do I need to purchase equipment?",
+      question: "Est-ce que vous avez des techniciens qui visitent ?",
       answer:
-        "When activating the Internet service, if a self-installation is possible because you already have a coaxial cable installed in your home, no Videotron technician will be necessary to activate the service. If you do not have a coaxial cable installed in your home, a Videotron technician will be needed to install a coaxial cable and activate the services. This is the only instance where a physical visit may occur to your home.",
+        "Lors de l'activation du service Internet, si une auto-installation est possible car vous avez déjà un câble coaxial installé chez vous, aucun technicien de Vidéotron sera nécessaire pour vous activer le service. Si vous n'avez pas de câble coaxial installé chez vous, un technicien de Vidéotron sera nécessaire pour vous installer un câble coaxial et activer les services. Ceci est la seule instance dont une visite physique peut se produire à votre domicile.",
     },
     {
-      question: "Do you have technicians visiting?",
-      answer: "",
+      question: "Est-ce que j'ai besoin d'achèter des équipements?",
+      answer: "La majorité de nos promotions incluent la location gratuite d'un modem et d'un routeur. Si vous avez des exigences spécifiques, nous sommes en possesions différentes gammes d'équipements pour répondre à vos besoins. ",
     },
   ];
   return (

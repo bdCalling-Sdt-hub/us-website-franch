@@ -18,12 +18,11 @@ const SupportPage = () => {
           </div>
           <div className="space-y-5  text-gray-400">
             <div className="border-2 border-[#1775fa] w-56" />
-            <h1 className="text-4xl font-bold text-white">Support</h1>
+            <h1 className="text-4xl font-bold text-white">PAGE DE SUPPORT</h1>
             <p className="text-white">
-              This section of our website aims to answer the most frequently
-              asked questions about our service, and provide support through
-              direct answers and video tutorials for any difficulties you may
-              have.
+            Cette section de notre site web a comme objectif de repondre aux questions les plus posées à propos de notre service, et fournir du support à travers des réponses directes et vidéo tutoriels pour quelconque difficutlés que vous pourriez avoir.
+
+
             </p>
             <p>
               <Link href="/contact">

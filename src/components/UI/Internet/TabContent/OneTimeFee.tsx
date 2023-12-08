@@ -1,27 +1,25 @@
+/* eslint-disable react/no-unescaped-entities */
 const OneTimeFees = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center tab-content bg-base-100 border-base-300 rounded-box p-6 py-16">
       <div>
-        <h1 className="text-2xl font-medium text-white mb-4">DEPARTURE FEES</h1>
+        <h1 className="text-2xl font-medium text-white mb-4">FRAIS DE DÉPART</h1>
         <p>
-          A start-up fee ranging from $45 to $100+taxes is required for any new
-          installation/activation (including address changes).
+        Un frais de départ variant de $45 à $100+taxes est requis pour toute nouvelle installation/ activation (y compris changements adresse).
         </p>
       </div>
       <div>
         <h1 className="text-2xl font-medium text-white mb-4">
-          CHANGE PACKAGE OR SPEED
+        CHANGEMENT DE FORFAIT OU VITESSE
         </h1>
         <p>
-          The cost to change the Internet speed or to change from one plan to
-          another is $35 + taxes.
+        Le côut pour modifier la vitesse d'Internet ou pour changer d’un forfait à l’autre est de 35$+taxes.
         </p>
       </div>
       <div className="mx-auto">
-        <h1 className="text-2xl font-medium text-white mb-4">SHIPPING</h1>
+        <h1 className="text-2xl font-medium text-white mb-4">FRAIS D’ENVOI</h1>
         <p>
-          Shipping costs between 0 and $15 + taxes depending on your location,
-          our promotions and the quantity of equipment sent.
+        Les frais d’envoi coûtent entre 0 et 15$+taxes selon votre emplacement, nos promotions et la quantité d'équipements envoyés.
         </p>
       </div>
     </div>

@@ -26,21 +26,21 @@ const Footer = () => {
         <nav>
           <header className="footer-title text-white text-lg">Services</header>
           <Link href="/packages" className="link link-hover text-[16px]">
-            Packages
+          Forfaits
           </Link>
           <Link href="/television" className="link link-hover text-[16px]">
-            Television
+          Télévision
           </Link>
           <Link href="/internet" className="link link-hover text-[16px]">
-            Internet
+          Internet
           </Link>
           <Link href="/phone" className="link link-hover text-[16px]">
-            Telephone
+          Téléphone
           </Link>
         </nav>
         <nav>
           <header className="footer-title text-lg text-white">
-            CONTACT US
+          Contactez-nous
           </header>
           <div className="flex items-center gap-2">
             <Icon>
@@ -72,7 +72,7 @@ const Footer = () => {
         </nav>
         <nav>
           <header className="footer-title text-white text-lg">
-            Social Networks
+          Réseaux sociaux
           </header>
           <div className="flex items-center gap-2">
             <Icon>
@@ -90,14 +90,14 @@ const Footer = () => {
       <div className="bg-[#191e24]">
         <footer className="footer  py-8 border-t text-base-content border-base-300 container mx-auto">
           <aside className="items-center grid-flow-col">
-            <p>&copy; 2022 Vodalink Inc. All rights reserved.</p>
+            <p>&copy; 2022 Vodalink Inc. Tous droits réservés. </p>
           </aside>
           <nav className="md:place-self-center md:justify-self-end">
             <div className="grid grid-flow-col gap-4">
-              <a>About</a>
-              <a>Privacy Policy</a>
-              <a>Complaints and CCTS</a>
-              <a>Terms and conditions</a>
+              <a>À propos</a>
+              <a>politique de confidentialité</a>
+              <a>Plaintes et CPRST</a>
+              <a>Termes et conditions du service</a>
             </div>
           </nav>
         </footer>

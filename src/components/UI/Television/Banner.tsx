@@ -12,16 +12,14 @@ const Banner = () => {
       </div>
       <div className="text-gray-400">
         <div className="border-2 border-[#1775fa] w-56 mb-4" />
-        <h1 className="text-4xl font-bold text-light mb-2">TELEVISION</h1>
+        <h1 className="text-4xl font-bold text-light mb-2">TÉLÉVISION</h1>
         <p>
-          With Vodalink, have access to content from the most popular
-          broadcasters in Canada, Vodalink offers packages made for families,
-          sports fans, movie enthusiasts and much more.
+        Avec Vodalink, ayez accès à du contenu provenant des diffuseurs les plus populaires au Canada, Vodalink offre des forfaits fait pour les familles, les fans des sports, passionnés des films et beaucoup plus.
         </p>
-        <p className="mt-4">Start now</p>
-        <p className="font-bold">From</p>
+        <p className="mt-4">Commencez dès maintenant</p>
+        <p className="font-bold">Commencez dès maintenan</p>
         <h1 className="font-bold text-light my-4">
-          <span className="text-6xl">$69</span>.95/month
+          <span className="text-6xl">$69</span>0,95/mois
         </h1>
         <p>
           <Link href="/contact">

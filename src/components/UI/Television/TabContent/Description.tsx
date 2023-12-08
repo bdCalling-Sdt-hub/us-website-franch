@@ -16,27 +16,27 @@ const Description = () => {
       <div className="mx-auto">
         <div className="flex items-center gap-2">
           <Check color="#1775fa" size={15} />
-          <p className="text-white">Powered by Android technology</p>
+          <p className="text-white">Propulsée par la technologie Android</p>
         </div>
         <div className="flex items-center gap-2">
           <Check color="#1775fa" size={15} />
-          <p className="text-white">More than 150 channels available</p>
+          <p className="text-white">Plus de 150 chaînes disponibles</p>
         </div>
         <div className="flex items-center gap-2">
           <Check color="#1775fa" size={15} />
-          <p className="text-white">Stability and HD quality</p>
+          <p className="text-white">Stabilité et qualité HD</p>
         </div>
         <div className="flex items-center gap-2">
           <Check color="#1775fa" size={15} />
-          <p className="text-white">Available in the greater Montreal area</p>
+          <p className="text-white">Disponible dans la grande région de Montréal</p>
         </div>
       </div>
       <div className=" text-center">
         <h1 className="text-5xl font-medium mb-2 text-gray-400">
-          Internet & TV
+        Internet et télévision
         </h1>
 
-        <p className="text-md font-medium my-4">from only</p>
+        <p className="text-md font-medium my-4">à partir de seulement</p>
         <h1 className="text-6xl font-bold text-light mb-4">$69,95</h1>
         <button className="btn uppercase btn-wide btn-black mt-5 ">
           Commander

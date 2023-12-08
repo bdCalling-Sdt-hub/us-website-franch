@@ -18,7 +18,7 @@ const TabSection = () => {
             title === "specification" ? "bg-[#1775fa] text-white" : ""
           }`}
         >
-          Specification
+          spécification
         </button>
         <button
           role="tab"
@@ -27,14 +27,14 @@ const TabSection = () => {
             title === "one-time-fees" ? "bg-[#1775fa] text-white" : ""
           }`}
         >
-          One time fees
+         Frais uniques
         </button>
         <button
           role="tab"
           onClick={() => setTitle("faq")}
           className={`tab ${title === "faq" ? "bg-[#1775fa] text-white" : ""}`}
         >
-          FAQ
+     FAQ
         </button>
       </div>
 

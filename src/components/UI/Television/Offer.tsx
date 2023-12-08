@@ -19,8 +19,8 @@ const Offer = () => {
   return (
     <div className="mb-14">
       <HeaderText>
-        We also offer very fresh <br />{" "}
-        <span className="text-[#1775fa]">themes</span>{" "}
+      Nous offrons aussi des thématiques bien<br />{" "}
+        <span className="text-[#1775fa]"> fraîches</span>{" "}
       </HeaderText>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {tvOfferList.map((item, index) => (
@@ -31,7 +31,7 @@ const Offer = () => {
         <div className="card-body grid grid-cols-1 lg:grid-cols-2">
           <div>
             <h1 className="text-3xl font-medium">
-              For the ultimate sports fan
+            Pour les fans ultimes des sports
             </h1>
             <div className="flex items-center flex-wrap  gap-3 my-5">
               {sportsImg.map((item, index) => (
@@ -45,9 +45,9 @@ const Offer = () => {
             </div>
           </div>
           <div className="place-self-end">
-            <h2 className="text-center">From only</h2>
+            <h2 className="text-center">à partir de</h2>
             <h1 className="text-3xl font-medium my-3 text-center">
-              35$/MONTH{" "}
+            35$/MOIS{" "}
             </h1>
             <Link href="/contact">
               <button className="btn btn-black btn-wide">COMMANDER</button>
