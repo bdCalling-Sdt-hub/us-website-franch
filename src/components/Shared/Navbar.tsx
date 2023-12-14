@@ -10,8 +10,13 @@ const Navbar = () => {
     setDropdownOpen(!isDropdownOpen);
   };
 
+  const handleClick = () => {
+    const whatsappURL = `https://wa.me/${+15146679328}`;
+    window.open(whatsappURL, "_blank");
+  };
+
   return (
-    <div className="bg-[#1776fa] text-white">
+    <div className="bg-[#1776fa] text-white sticky top-0 z-10">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown" onClick={toggleDropdown}>
@@ -72,6 +77,7 @@ const Navbar = () => {
                   <div
                     className="tooltip  tooltip-bottom"
                     data-tip="Chat with an agent"
+                    onClick={handleClick}
                   >
                     <button className="btn btn-ghost btn-circle">
                       <MessagesSquare />
@@ -124,6 +130,7 @@ const Navbar = () => {
             <div
               className="tooltip  tooltip-bottom"
               data-tip="Chat with an agent"
+              onClick={handleClick}
             >
               <button className="btn btn-ghost btn-circle">
                 <MessagesSquare />

@@ -10,6 +10,7 @@ const Service = () => {
         "Service de télévision de haute définition avec plus de 150 chaînes.",
       icon: <Tv size={40} />,
       btnContent: "Voir la liste des chaînes",
+      link: "/television",
     },
     {
       title: "INTERNET ILLIMITÉ",
@@ -17,6 +18,7 @@ const Service = () => {
         "Service d'Internet de haute vitesse avec usage complètement illimité",
       icon: <ArrowDownUp size={40} />,
       btnContent: "choisir vitesse",
+      link: "/internet",
     },
     {
       title: "TÉLÉPHONE FIXE",
@@ -24,6 +26,7 @@ const Service = () => {
         "Téléphonie résidentielle couvrant les vaste région du Canada, États-Unis.",
       icon: <PhoneCall size={40} />,
       btnContent: "choisir forfait",
+      link: "/phone",
     },
   ];
 
@@ -32,19 +35,20 @@ const Service = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center mb-14">
         <div>
           <h1 className="text-2xl lg:text-5xl font-bold">
-          Des services tellement
+            Des services tellement
             <br /> rafraîchissante
           </h1>
           <div className="border-b-4 w-52 my-5 border-[#1775fa]" />
         </div>
         <div className="space-y-5">
           <p className="text-xl">
-          Avez-vous soif de télévision et d'Internet fiables, rapides et économiques
-            et le service téléphonique ? Passez votre commande maintenant !    
+            Avez-vous soif de télévision et d'Internet fiables, rapides et
+            économiques et le service téléphonique ? Passez votre commande
+            maintenant !
           </p>
           <Link href="/contact">
             <button className="btn btn-wide btn-black uppercase mt-5 hover:bg-gray-500 duration">
-      commandant
+              commandant
             </button>
           </Link>
         </div>
@@ -61,9 +65,11 @@ const Service = () => {
               </div>
               <h2 className="card-title">{item.title}</h2>
               <p className="my-2">{item.description}</p>
-              <button className="btn btn-wide btn-black uppercase hover:bg-gray-500 duration">
-                {item.btnContent}
-              </button>
+              <Link href={item.link}>
+                <button className="btn btn-wide btn-black uppercase hover:bg-gray-500 duration">
+                  {item.btnContent}
+                </button>
+              </Link>
             </div>
           </div>
         ))}

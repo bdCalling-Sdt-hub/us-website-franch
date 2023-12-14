@@ -31,7 +31,7 @@ const NavIcon = () => {
     <div className="container mx-auto flex justify-between p-1">
       <div className="flex items-center gap-2 cursor-pointer hover:text-white">
         <a href="tel:514-800-0201" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-blue-500 flex justify-center items-center rounded">
+          <div className="w-7 h-7 bg-blue-500 flex justify-center items-center rounded">
             <Phone className="text-white animate-pulse" />
           </div>
           <p className="text-lg">514-800-0201</p>
@@ -43,7 +43,7 @@ const NavIcon = () => {
           return (
             <a key={index} href={uri} target="_blank" rel="noopener noreferrer">
               <div
-                className={`w-8 h-8 ${item.bgColor} flex justify-center items-center rounded`}
+                className={`w-7 h-7 ${item.bgColor} flex justify-center items-center rounded`}
               >
                 {item.icon}
               </div>

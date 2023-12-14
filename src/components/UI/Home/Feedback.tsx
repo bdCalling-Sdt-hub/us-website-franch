@@ -22,7 +22,7 @@ const Feedback = () => {
   return (
     <div className="mx-3 lg:mx-44 mt-36">
       <HeaderText>
-        What you think of our <br /> services
+        Nos clients satisfaits <br /> retour
       </HeaderText>
       <Swiper
         modules={[Pagination, A11y, Autoplay, Navigation]}
@@ -46,7 +46,7 @@ const Feedback = () => {
             <div className="card shadow p-10 rounded-md  relative flex justify-center h-[340px] text-center bg-slate-700">
               <div className="absolute -top-12 bg-slate-700 p-1 shadow rounded-full">
                 <Image
-                  src={feedback?.image}
+                  src="/images/quote.png"
                   className="w-20 h-20 rounded-full"
                   alt=""
                   width={200}
