@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#1776fa] text-white sticky top-0 z-10">
+    <div className="bg-[#1776fa] text-white ">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown" onClick={toggleDropdown}>
