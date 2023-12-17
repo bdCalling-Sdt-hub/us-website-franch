@@ -30,11 +30,11 @@ const NavIcon = () => {
   return (
     <div className="container mx-auto flex justify-between p-1">
       <div className="flex items-center gap-2 cursor-pointer hover:text-white">
-        <a href="tel:514-800-0201" className="flex items-center gap-2">
+        <a href="tel:1-855-396-2838" className="flex items-center gap-2">
           <div className="w-7 h-7 bg-blue-500 flex justify-center items-center rounded">
             <Phone className="text-white animate-pulse" />
           </div>
-          <p className="text-lg">514-800-0201</p>
+          <p className="text-lg">1-855-396-2838</p>
         </a>
       </div>
       <div className="flex gap-2">

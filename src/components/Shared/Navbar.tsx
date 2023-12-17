@@ -87,7 +87,10 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          <Image src="/images/logo2.png" alt="logo" width={300} height={67} />
+          <Link href="/">
+            {" "}
+            <Image src="/images/logo2.png" alt="logo" width={300} height={67} />
+          </Link>
         </div>
         <div className="navbar-end hidden lg:flex z-10">
           <ul className="menu menu-horizontal px-1">
