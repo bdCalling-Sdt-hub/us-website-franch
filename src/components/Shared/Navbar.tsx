@@ -68,7 +68,7 @@ const Navbar = () => {
                   <Link href="/support">Support</Link>
                 </li>
                 <li className="text-2xl">
-                  <a href="https://vodalink-telecom-en.vercel.app/">English</a>
+                  <a href="http://en.vodalink.ca/">English</a>
                 </li>
                 <div>
                   <button className="btn btn-ghost btn-circle">
@@ -123,7 +123,7 @@ const Navbar = () => {
               <Link href="/support">Support</Link>
             </li>
             <li>
-              <a href="https://vodalink-telecom-en.vercel.app/">English</a>
+              <a href="http://en.vodalink.ca/">English</a>
             </li>
           </ul>
           <div>

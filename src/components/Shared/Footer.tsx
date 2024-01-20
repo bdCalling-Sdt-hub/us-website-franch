@@ -67,25 +67,32 @@ const Footer = () => {
           <header className="footer-title text-lg text-white">
             Contactez-nous
           </header>
-          <div className="flex items-center gap-2">
+          <a href="tel:514-800-0201" className="flex items-center gap-2">
             <Icon>
               <Phone color="#e8e3e3" size={25} />
             </Icon>
             <p className="text-lg">514-800-0201</p>
-          </div>
-          <div className="flex items-center gap-2">
+          </a>
+          <a href="tel:1-855-396-2838" className="flex items-center gap-2">
             <Icon>
               <Phone color="#e8e3e3" size={25} />
             </Icon>
             <p className="text-lg"> 1-855-396-2838 </p>
-          </div>
-          <div className="flex items-center gap-2">
+          </a>
+          <a
+            href="mailto:info@vodalink.com"
+            className="flex items-center gap-2"
+          >
             <Icon>
               <Mail color="#e8e3e3" />
             </Icon>
             <p className="text-lg">info@vodalink.com</p>
-          </div>
-          <div className="flex items-center gap-2">
+          </a>
+          <a
+            href="https://maps.app.goo.gl/nXVAStZSJtgnavgf8"
+            className="flex items-center gap-2"
+            target="_blank"
+          >
             <Icon>
               <MapPinned size={30} color="#e8e3e3" absoluteStrokeWidth />
             </Icon>
@@ -93,7 +100,7 @@ const Footer = () => {
               7900 boul. Taschereau A-206 Brossard,
               <br /> Quebec, Canada J4X 1C2
             </p>
-          </div>
+          </a>
         </nav>
         <nav>
           <header className="footer-title text-white text-lg">
