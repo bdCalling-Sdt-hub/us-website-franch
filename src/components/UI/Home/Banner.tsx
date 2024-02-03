@@ -25,14 +25,14 @@ const Banner = () => {
       description:
         "Service d'Internet de haute vitesse avec usage complètement illimité",
       price: "59",
-      image: "/images/phone.png",
+      image: "/images/bannerLap.png",
       link: "internet",
     },
     {
       title: "Téléphone",
       description: "Appels illimité Partout au Canada",
       price: "6",
-      image: "/images/phone.png",
+      image: "/images/bannerMobile1.png",
       link: "phone",
     },
   ];
@@ -76,7 +76,7 @@ const Banner = () => {
                     </button>
                   </Link>
                 </div>
-                <div className="order-1 lg:order-2">
+                <div className="order-1 lg:order-2 pt-10">
                   <img src={item.image} alt="image" className="w-full" />
                 </div>
               </div>
